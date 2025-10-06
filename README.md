@@ -23,3 +23,14 @@ Create:
 - A 2D array (2x3) with values from 10 to 60 in steps of 10
 - Generate a 4x4 Numpy array of random integers between 0 and 100 using np.random.randint().
 - Create a 2D numpy array of shape (3x3). Convert it into a pandas DataFrame and add column names: 'A', 'B', 'C'.
+
+Section C: Exploring Pandas
+Create a small DataFrame manually with 10 rows and columns: 'Name', 'Age', 'City', and 'Salary'.
+
+Then:
+
+- Use .info(), .describe()
+- Select 'Name' and 'City' columns
+- Drop 'City' column
+- Fill any missing values in 'Salary' column with the mean
+- Remove any duplicate rows
